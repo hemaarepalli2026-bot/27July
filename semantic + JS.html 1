@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML + JS</title>
+</head>
+<body>
+
+    <header>
+        <h1>WELCOME TO MY PAGE</h1>
+    </header>
+
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p id="message">This paragraph will be updated by JavaScript.</p>
+            <button onclick="runJS()">Click Me</button>
+        </section>
+
+        <section id="about">
+            <h2>About Section</h2>
+            <p>&copy; 2026 Demo Page</p>
+        </section>
+    </main>
+
+    <!-- Connects to your external JavaScript file -->
+    <script src="Script.js"></script>
+
+</body>
+</html>

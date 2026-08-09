@@ -1,35 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"
-        <title>Semantic HTML + JS</title>
-    </head>
+<html>
+<head>
+    <title>About Page</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
 
-    <body>
-    <script src="script.js"></script>
-         <header>
-            <h1>WELCOME TO MY  PAGE</h1>
-         </header>
+        h1{
+            background-color: cyan;
+            padding: 20px;
+            text-align: center;
+        }
 
-         <nav>
-             <a href="#home">HOME</a>
-             <a href="#about">ABOUT</a>
-         </nav>
+        p{
+            background-color: pink;
+            padding: 10px;
+        }
 
-         <section id="home">
-            <h2>Home Section</h2>
-            <p id="message">This paragraph will be updated by JavaScript.</p>
-            <button onclick="runJS()">Click Me</button>
-         </section>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
 
-         <section id="about">
-            <h2>About Section</h2>
-            <div id="output"></div>
-         </section>
-        </main>
-        <footer>
-            <p>&copy; 2026 Demo Page</p>
-        </footer>
-        </body>
-        </html>
+        th{
+            background-color: #f2f2f2;
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        td{
+            background-color: #d8f5d1;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        footer{
+            margin-top: 20px;
+            background-color: cyan;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>This is the About Page</h1>
+
+    <p>My name is Hematulasi</p>
+
+    <table>
+        <tr>
+            <th>Course Code</th>
+            <th>Subject Name</th>
+            <th>Course Faculty</th>
+        </tr>
+
+        <tr>
+            <td>25SC2008</td>
+            <td>Full Stack Web Development</td>
+            <td>Mr. Dineshnath G</td>
+        </tr>
+
+        <tr>
+            <td>25BT2103</td>
+            <td>Biochemistry</td>
+            <td>Mr.Nageswara rao</td>
+        </tr>
+
+        <tr>
+            <td>25BT2104</td>
+            <td>Microbioloy</td>
+            <td>Mr.Rjashekar</td>
+        </tr>
+
+        <tr>
+            <td>25AD2102</td>
+            <td>AI & ML</td>
+            <td>Mr.Rama krishna</td>
+        </tr>
+
+        <tr>
+            <td>25BT2105</td>
+            <td>Biologics and GMP compilance</td>
+            <td>Mr.Koteswara Reddy</td>
+        </tr>
+
+        <tr>
+            <td>25MT2023</td>
+            <td>Mathematics for life sciences</td>
+            <td>Mr. Konda Reddy</td>
+        </tr>
+    </table>
+
+    <footer>
+        &copy; 2026 My Website. All rights reserved.
+    </footer>
+
+</body>
+</html>
